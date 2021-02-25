@@ -2,4 +2,4 @@ import npyscreen
 
 
 class InputBox(npyscreen.BoxTitle):
-    _contained_widget = npyscreen.MultiLineEdit
+    _contained_widget = npyscreen.TitleText
