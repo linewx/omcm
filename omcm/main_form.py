@@ -4,7 +4,7 @@ from omc.service import omc_service
 from omcm.service.omcm_service import OmcResourceAction
 
 
-class MainForm(npyscreen.FormBaseNew):
+class MainForm(npyscreen.TitleForm):
     def create(self):
         action = OmcResourceAction(omc_service.exec('omc smax cd219 namespace'.split(), True))
         # self.add(npyscreen.TitleText, name="  >", rely=-3)

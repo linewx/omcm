@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 from sys import platform
 import os
 
-required_packages = {
-    'omc>=0.2.5'
-}
+required_packages = [
+    'omc>=0.2.3'
+]
 setup(
     name="omcm",
     version="0.0.1",

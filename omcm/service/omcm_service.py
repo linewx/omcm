@@ -1,10 +1,3 @@
-import logging
-
-logger = logging.getLogger(__name__)
-logging.warning("we are familar")
-logging.warning(__name__)
-
-
 class OmcResourceAction:
     def __init__(self, resource_action):
         self.action = resource_action
