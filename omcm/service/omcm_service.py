@@ -13,3 +13,10 @@ class OmcResourceAction:
 
     def get_commands(self):
         return self.get_context().get('all')
+
+class ContentBuilder:
+    def build_content(self):
+        pass
+
+    def build_list(self):
+        pass
